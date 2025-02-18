@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.introduction {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+.background-image {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    background-image: url('gerrardsss.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1; 
+}
+
+.nama {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+
+.profile {
+    position: relative;
+    z-index: 1; 
+    padding: 20px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-top: 30vh;
+    margin-bottom: 40vh;
+    border-radius: 20px;
+}
